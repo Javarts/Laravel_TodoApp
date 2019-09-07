@@ -35,6 +35,10 @@
                                 {{ $todo->name }}
                             </li>
                         </ul>
+
+                        <button class="btn btn-primary">
+                            view all
+                        </button>
                     @endforeach
                 </div>
 
